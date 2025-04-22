@@ -6,5 +6,6 @@ pub mod utils;
 pub mod circuit;
 pub mod gate;
 pub mod fhe_aes;
-
+pub mod cli;  // Add this line to expose the CLI module
 pub use fhe_aes::{BoolFheAes, encrypt_reference_aes128};
+
