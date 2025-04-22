@@ -1,0 +1,24 @@
+[package]
+name = "fhe-aes"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aes = "0.8.4"
+bit-vec = "0.8"
+clap = "4.5.23"
+dashmap = "6.1.0"
+log = "0.4.22"
+env_logger = "0.11.6"
+hex = "0.4.3"
+rayon = "1.10.0"
+tfhe = { git = "https://git@github.com/zama-ai/tfhe-rs.git", rev = "225b5b2597c9684ad8734b9ddc79a666ba97b4ae", features = [
+    "boolean",
+    "shortint",
+    "integer",
+    "noise-asserts",
+] }
+
+[dev-dependencies]
+rand = "0.8"
+test-case = "3.3.1"
