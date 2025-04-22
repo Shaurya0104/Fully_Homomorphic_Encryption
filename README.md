@@ -1,3 +1,4 @@
+
 # FHE-AES: Fully Homomorphic AES-128 Implementation
 
 ![Rust](https://img.shields.io/badge/Rust-1.72+-blue)
@@ -27,7 +28,7 @@ cargo build --release --features=boolean,integer,x86_64-unix
 
 cargo build --release
 
-
+RUST_MIN_STACK=33554432 cargo run --release --bin fhe-aes encrypt --key 000102030405060708090a0b0c0d0e0f --iv 00112233445566778899aabbccddeeff --count 1
 
 **Parameters**:
 - `-k/--key`: 128-bit AES key (hex)
