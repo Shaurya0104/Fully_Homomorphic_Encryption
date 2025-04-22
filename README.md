@@ -64,16 +64,7 @@ fhe-aes/
 
 The AES circuit is based on the [SCALE-MAMBA](https://homes.esat.kuleuven.be/~nsmart/SCALE/) implementation from COSIC KU Leuven.
 
-## Contributing
 
-Contributions welcome! Please follow:
-1. Fork repository
-2. Create feature branch
-3. Submit PR with tests
-
-## License
-
-Apache 2.0 - See [LICENSE](LICENSE) for details
 
 ## References
 
