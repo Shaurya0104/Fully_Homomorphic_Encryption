@@ -25,10 +25,7 @@ cargo build --release --features=boolean,integer,x86_64-unix
 
 ### CLI Interface
 
-RUST_MIN_STACK=33554432 cargo run --release --bin fhe-aes -- encrypt
--k 000102030405060708090a0b0c0d0e0f
--i 00112233445566778899aabbccddeeff
--n 2
+cargo build --release
 
 
 
